@@ -13,6 +13,15 @@
 		2C8AC3072296B2B1003FEF0B /* UITextField+etensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3062296B2B1003FEF0B /* UITextField+etensions.swift */; };
 		2C8AC3082296B2B1003FEF0B /* UITextField+etensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3062296B2B1003FEF0B /* UITextField+etensions.swift */; };
 		2C8AC3092296B2B1003FEF0B /* UITextField+etensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3062296B2B1003FEF0B /* UITextField+etensions.swift */; };
+		2C8AC3162296DCD5003FEF0B /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3152296DCD5003FEF0B /* TextField.swift */; };
+		2C8AC3172296DCD5003FEF0B /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3152296DCD5003FEF0B /* TextField.swift */; };
+		2C8AC3182296DCD5003FEF0B /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3152296DCD5003FEF0B /* TextField.swift */; };
+		2C8AC31A2296E416003FEF0B /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3192296E416003FEF0B /* TextStyle.swift */; };
+		2C8AC31B2296E416003FEF0B /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3192296E416003FEF0B /* TextStyle.swift */; };
+		2C8AC31C2296E416003FEF0B /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3192296E416003FEF0B /* TextStyle.swift */; };
+		2C8AC31E2296E4B1003FEF0B /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC31D2296E4B1003FEF0B /* ViewStyle.swift */; };
+		2C8AC31F2296E4B1003FEF0B /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC31D2296E4B1003FEF0B /* ViewStyle.swift */; };
+		2C8AC3202296E4B1003FEF0B /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC31D2296E4B1003FEF0B /* ViewStyle.swift */; };
 		2CBB31DB2296A91C00527EE5 /* TextStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB31D92296A91C00527EE5 /* TextStylable.swift */; };
 		2CBB31DC2296A91C00527EE5 /* TextStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB31D92296A91C00527EE5 /* TextStylable.swift */; };
 		2CBB31DD2296A91C00527EE5 /* TextStylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB31D92296A91C00527EE5 /* TextStylable.swift */; };
@@ -48,6 +57,9 @@
 		13A905AA013FF4C8D78577BD8ECE2A84 /* Stylable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Stylable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2315E46C0CCFBEAE7E4A86C6053AC0B5 /* Pods-Stylable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stylable_Example-dummy.m"; sourceTree = "<group>"; };
 		2C8AC3062296B2B1003FEF0B /* UITextField+etensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+etensions.swift"; path = "Stylable/Classes/UITextField+etensions.swift"; sourceTree = "<group>"; };
+		2C8AC3152296DCD5003FEF0B /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = Stylable/Classes/TextField.swift; sourceTree = "<group>"; };
+		2C8AC3192296E416003FEF0B /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextStyle.swift; path = Stylable/Classes/TextStyle.swift; sourceTree = "<group>"; };
+		2C8AC31D2296E4B1003FEF0B /* ViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewStyle.swift; path = Stylable/Classes/ViewStyle.swift; sourceTree = "<group>"; };
 		2CBB31D92296A91C00527EE5 /* TextStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextStylable.swift; path = Stylable/Classes/TextStylable.swift; sourceTree = "<group>"; };
 		2CBB31DA2296A91C00527EE5 /* ViewStylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewStylable.swift; path = Stylable/Classes/ViewStylable.swift; sourceTree = "<group>"; };
 		2D9FF99A2E196048BED11645C2FB4206 /* Stylable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stylable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,8 +124,11 @@
 		208D4BE0518E30771FAB8EF70E9DBFF2 /* Stylable */ = {
 			isa = PBXGroup;
 			children = (
+				2C8AC3152296DCD5003FEF0B /* TextField.swift */,
 				2C8AC3062296B2B1003FEF0B /* UITextField+etensions.swift */,
 				2CBB31D92296A91C00527EE5 /* TextStylable.swift */,
+				2C8AC3192296E416003FEF0B /* TextStyle.swift */,
+				2C8AC31D2296E4B1003FEF0B /* ViewStyle.swift */,
 				2CBB31DA2296A91C00527EE5 /* ViewStylable.swift */,
 				3169372BE1B392FB3635371D6DC9421D /* Pod */,
 				D938C3B1B7E151B70E620451EB7CE2A4 /* Support Files */,
@@ -388,9 +403,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8AC31A2296E416003FEF0B /* TextStyle.swift in Sources */,
 				2C8AC3072296B2B1003FEF0B /* UITextField+etensions.swift in Sources */,
 				2CBB31DB2296A91C00527EE5 /* TextStylable.swift in Sources */,
 				2CBB31DE2296A91C00527EE5 /* ViewStylable.swift in Sources */,
+				2C8AC31E2296E4B1003FEF0B /* ViewStyle.swift in Sources */,
+				2C8AC3162296DCD5003FEF0B /* TextField.swift in Sources */,
 				CDDF95724BEFA7917D4950A7B6C03C83 /* Pods-Stylable_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,9 +417,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8AC31C2296E416003FEF0B /* TextStyle.swift in Sources */,
 				2C8AC3092296B2B1003FEF0B /* UITextField+etensions.swift in Sources */,
 				2CBB31DD2296A91C00527EE5 /* TextStylable.swift in Sources */,
 				2CBB31E02296A91C00527EE5 /* ViewStylable.swift in Sources */,
+				2C8AC3202296E4B1003FEF0B /* ViewStyle.swift in Sources */,
+				2C8AC3182296DCD5003FEF0B /* TextField.swift in Sources */,
 				17EDA0A3E0D19A3CFC39A761DE8CF7DC /* Stylable-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,9 +431,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8AC31B2296E416003FEF0B /* TextStyle.swift in Sources */,
 				2C8AC3082296B2B1003FEF0B /* UITextField+etensions.swift in Sources */,
 				2CBB31DC2296A91C00527EE5 /* TextStylable.swift in Sources */,
 				2CBB31DF2296A91C00527EE5 /* ViewStylable.swift in Sources */,
+				2C8AC31F2296E4B1003FEF0B /* ViewStyle.swift in Sources */,
+				2C8AC3172296DCD5003FEF0B /* TextField.swift in Sources */,
 				D9A97F92D186970EFE63DE6B116B8BF1 /* Pods-Stylable_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

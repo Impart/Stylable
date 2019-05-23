@@ -8,32 +8,6 @@
 
 import UIKit
 
-public struct TextStyle {
-    
-    let font: UIFont
-    let color: UIColor?
-    let backgroundColor: UIColor?
-    let lineBreakMode: NSLineBreakMode?
-    let lineSpacing: CGFloat?
-    let kern: CGFloat?
-
-    public init(font: UIFont,
-         color: UIColor? = nil,
-         backgroundColor: UIColor? = nil,
-         lineBreakMode: NSLineBreakMode? = nil,
-         lineSpacing: CGFloat? = nil,
-         kern: CGFloat? = nil) {
-
-        self.font = font
-        self.color = color
-        self.backgroundColor = backgroundColor
-        self.lineBreakMode = lineBreakMode
-        self.lineSpacing = lineSpacing
-        self.kern = kern
-        
-    }
-}
-
 public protocol TextStylable: class {
 
     var text: String? { get set }
@@ -100,6 +74,28 @@ public extension TextStylable {
         }
 
         return attributes
+    }
+
+    func placeHolderAttributesFormStyle(textStyle: TextStyle) -> [NSAttributedString.Key: Any]? {
+        var attributes: [NSAttributedString.Key: Any] = [:]
+        if let font = textStyle.placeHolderFont {
+            attributes[NSAttributedString.Key.font] = font
+        }
+
+        if let color = textStyle.placeHolderColor {
+            attributes[NSAttributedString.Key.foregroundColor] = color
+        }
+
+        if let kern = textStyle.placeHolderKern {
+            attributes[NSAttributedString.Key.kern] = kern
+        }
+
+        if attributes.keys.count > 0 {
+            return attributes
+        } else {
+            return nil
+        }
+
     }
 
 }
