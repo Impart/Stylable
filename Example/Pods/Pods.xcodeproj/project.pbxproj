@@ -114,9 +114,9 @@
 			children = (
 				2CBB31D92296A91C00527EE5 /* TextStylable.swift */,
 				2CBB31DA2296A91C00527EE5 /* ViewStylable.swift */,
+				2CBB31E12296AA4E00527EE5 /* UITextField+etensions.swift */,
 				3169372BE1B392FB3635371D6DC9421D /* Pod */,
 				D938C3B1B7E151B70E620451EB7CE2A4 /* Support Files */,
-				2CBB31E12296AA4E00527EE5 /* UITextField+etensions.swift */,
 			);
 			name = Stylable;
 			path = ../..;

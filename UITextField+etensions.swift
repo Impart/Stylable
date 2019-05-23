@@ -9,7 +9,7 @@ import UIKit
 
 extension UITextField: TextStylable {
 
-    func styleText(with textStyle: TextStyle) {
+    public func styleText(with textStyle: TextStyle) {
         defaultTextAttributes = attributesFromStyle(textStyle: textStyle)
     }
 
