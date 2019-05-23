@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'Stylable'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Stylable.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'A small library to make styling of views a little easier'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Style UIViews, UILabels, UITextFields, etc with easy to use configurations.
                        DESC
 
-  s.homepage         = 'https://github.com/mborsten/Stylable'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/Impart/Stylable'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mborsten' => 'marcel@impart.nl' }
-  s.source           = { :git => 'https://github.com/mborsten/Stylable.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Impart IT' => 'marcel@impart.nl' }
+  s.source           = { :git => 'https://github.com/Impart/Stylable.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
+  s.swift_versions = ["4.2", "5"]
 
   s.source_files = 'Stylable/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Stylable' => ['Stylable/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

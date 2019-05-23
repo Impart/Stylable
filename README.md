@@ -1,6 +1,5 @@
 # Stylable
 
-[![CI Status](https://img.shields.io/travis/mborsten/Stylable.svg?style=flat)](https://travis-ci.org/mborsten/Stylable)
 [![Version](https://img.shields.io/cocoapods/v/Stylable.svg?style=flat)](https://cocoapods.org/pods/Stylable)
 [![License](https://img.shields.io/cocoapods/l/Stylable.svg?style=flat)](https://cocoapods.org/pods/Stylable)
 [![Platform](https://img.shields.io/cocoapods/p/Stylable.svg?style=flat)](https://cocoapods.org/pods/Stylable)
@@ -22,7 +21,7 @@ pod 'Stylable'
 
 ## Author
 
-mborsten, marcel@impart.nl
+Impart IT, info@impart.nl
 
 ## License
 

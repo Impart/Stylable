@@ -1,0 +1,22 @@
+{
+  "name": "Stylable",
+  "version": "0.1.0",
+  "summary": "A short description of Stylable.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mborsten/Stylable",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mborsten": "marcel@impart.nl"
+  },
+  "source": {
+    "git": "https://github.com/mborsten/Stylable.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Stylable/Classes/**/*"
+}

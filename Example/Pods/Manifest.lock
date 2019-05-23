@@ -1,0 +1,16 @@
+PODS:
+  - Stylable (0.1.0)
+
+DEPENDENCIES:
+  - Stylable (from `../`)
+
+EXTERNAL SOURCES:
+  Stylable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Stylable: 12d9dd78237d1763b396324aa48139ec3a9fbb12
+
+PODFILE CHECKSUM: 76b839f6fad133ce1251b55d9eeae7bc7e597e63
+
+COCOAPODS: 1.7.0.rc.1
