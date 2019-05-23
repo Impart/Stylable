@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Stylable'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A small library to make styling of views a little easier'
 
   s.description      = <<-DESC
@@ -20,7 +20,7 @@ Style UIViews, UILabels, UITextFields, etc with easy to use configurations.
   s.author           = { 'Impart IT' => 'marcel@impart.nl' }
   s.source           = { :git => 'https://github.com/Impart/Stylable.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.swift_versions = ["4.2", "5"]
 
   s.source_files = 'Stylable/Classes/**/*'
