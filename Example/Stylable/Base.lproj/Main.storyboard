@@ -39,6 +39,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EWH-Zp-hkX" customClass="TextField" customModule="Stylable">
+                                <rect key="frame" x="16" y="115" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Hjx-Z4-Jp1"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -47,17 +56,22 @@
                             <constraint firstItem="Ekt-wt-0TE" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="9cr-b5-iBs"/>
                             <constraint firstItem="YLj-hS-vYQ" firstAttribute="leading" secondItem="Ekt-wt-0TE" secondAttribute="leading" id="YCO-PM-Fb3"/>
                             <constraint firstItem="8IS-Hz-oij" firstAttribute="leading" secondItem="YLj-hS-vYQ" secondAttribute="leading" id="cIE-Zo-Z0s"/>
+                            <constraint firstItem="EWH-Zp-hkX" firstAttribute="top" secondItem="8IS-Hz-oij" secondAttribute="bottom" constant="8" id="eCy-i5-pA3"/>
+                            <constraint firstAttribute="trailing" secondItem="EWH-Zp-hkX" secondAttribute="trailing" constant="16" id="fDT-3j-znp"/>
                             <constraint firstItem="8IS-Hz-oij" firstAttribute="top" secondItem="YLj-hS-vYQ" secondAttribute="bottom" constant="8" id="fvm-Cu-RrQ"/>
+                            <constraint firstItem="EWH-Zp-hkX" firstAttribute="leading" secondItem="8IS-Hz-oij" secondAttribute="leading" id="i13-7g-Ken"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="header1" destination="Ekt-wt-0TE" id="yTo-KK-jzG"/>
                         <outlet property="header2" destination="YLj-hS-vYQ" id="DBI-hj-nGj"/>
                         <outlet property="header3" destination="8IS-Hz-oij" id="DRu-TA-CgI"/>
+                        <outlet property="textField1" destination="EWH-Zp-hkX" id="QbU-9H-3eH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="140" y="132.68365817091455"/>
         </scene>
     </scenes>
 </document>

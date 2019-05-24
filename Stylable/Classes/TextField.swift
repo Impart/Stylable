@@ -12,15 +12,15 @@ public class TextField: UITextField {
     var inset: CGFloat = 8
 
     override public func textRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.insetBy(dx: inset, dy: inset)
+        return bounds.insetBy(dx: inset, dy: 0)
     }
 
     override public func editingRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.insetBy(dx: inset, dy: inset)
+        return bounds.insetBy(dx: inset, dy: 0)
     }
 
     override public func placeholderRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.insetBy(dx: inset, dy: inset)
+        return bounds.insetBy(dx: inset, dy: 0)
     }
 
 }

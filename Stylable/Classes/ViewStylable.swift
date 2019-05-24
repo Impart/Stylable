@@ -24,9 +24,9 @@ extension ViewStylable {
     public func styleView(with viewStyle: ViewStyle) {
 
         if let backgroundColor = viewStyle.backgroundColor {
-            self.backgroundColor = backgroundColor
+            self.layer.backgroundColor = backgroundColor.cgColor
         }
-
+        
         if let border = viewStyle.border {
             styleBorder(with: border)
         }
