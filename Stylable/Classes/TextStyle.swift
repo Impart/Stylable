@@ -43,4 +43,16 @@ public struct TextStyle {
         self.placeHolderKern = placeHolderKern
 
     }
+
+    public func color(_ color: UIColor) -> TextStyle {
+        var style = self
+        style.color = color
+        return style
+    }
+
+    public func backgroundColor(_ color: UIColor) -> TextStyle {
+        var style = self
+        style.backgroundColor = color
+        return style
+    }
 }
