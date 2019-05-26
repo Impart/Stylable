@@ -55,4 +55,46 @@ public struct TextStyle {
         style.backgroundColor = color
         return style
     }
+
+    public func lineBreakMode(_ lineBreakMode: NSLineBreakMode) -> TextStyle {
+        var style = self
+        style.lineBreakMode = lineBreakMode
+        return style
+    }
+
+    public func lineSpacing(_ lineSpacing: CGFloat) -> TextStyle {
+        var style = self
+        style.lineSpacing = lineSpacing
+        return style
+    }
+
+    public func kern(_ kern: CGFloat) -> TextStyle {
+        var style = self
+        style.kern = kern
+        return style
+    }
+
+    public func inset(_ inset: CGFloat) -> TextStyle {
+        var style = self
+        style.inset = inset
+        return style
+    }
+
+    public func placeHolderFont(_ font: UIFont) -> TextStyle {
+        var style = self
+        style.placeHolderFont = font
+        return style
+    }
+
+    public func placeHolderColor(_ color: UIColor) -> TextStyle {
+        var style = self
+        style.placeHolderColor = color
+        return style
+    }
+
+    public func placeHolderKern(_ kern: CGFloat) -> TextStyle {
+        var style = self
+        style.placeHolderKern = kern
+        return style
+    }
 }
