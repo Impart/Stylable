@@ -20,28 +20,8 @@ public struct TextStyle {
     var placeHolderColor: UIColor?
     var placeHolderKern: CGFloat?
 
-    public init(font: UIFont,
-                color: UIColor? = nil,
-                backgroundColor: UIColor? = nil,
-                lineBreakMode: NSLineBreakMode? = nil,
-                lineSpacing: CGFloat? = nil,
-                kern: CGFloat? = nil,
-                inset: CGFloat? = nil,
-                placeHolderFont: UIFont? = nil,
-                placeHolderColor: UIColor? = nil,
-                placeHolderKern: CGFloat? = nil) {
-
+    public init(font: UIFont) {
         self.font = font
-        self.color = color
-        self.backgroundColor = backgroundColor
-        self.lineBreakMode = lineBreakMode
-        self.lineSpacing = lineSpacing
-        self.kern = kern
-        self.inset = inset
-        self.placeHolderFont = placeHolderFont
-        self.placeHolderColor = placeHolderColor
-        self.placeHolderKern = placeHolderKern
-
     }
 
     public func color(_ color: UIColor) -> TextStyle {
