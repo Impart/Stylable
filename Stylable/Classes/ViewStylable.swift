@@ -31,10 +31,14 @@ extension ViewStylable {
         
         if let border = viewStyle.border {
             styleBorder(with: border)
+        } else {
+            clearBorder()
         }
 
         if let shadow = viewStyle.shadow {
             styleShadow(with: shadow)
+        } else {
+            clearShadow()
         }
 
     }
@@ -67,6 +71,19 @@ extension ViewStylable {
         if let opacity = shadowStyle.opacity {
             layer.shadowOpacity = Float(opacity)
         }
+    }
+
+    private func clearBorder() {
+        self.layer.cornerRadius = 0.0
+        self.layer.borderWidth = 0.0
+        self.layer.borderColor = nil
+    }
+
+    private func clearShadow() {
+        self.layer.shadowRadius = 0.0
+        self.layer.shadowColor = nil
+        self.layer.shadowOffset = CGSize.zero
+        self.layer.shadowOpacity = 0.0
     }
 
 }
