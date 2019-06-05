@@ -11,6 +11,13 @@ public class TextField: UITextField {
 
     var inset: CGFloat = 8
 
+    public func styleView(with viewStyle: ViewStyle) {
+
+        borderStyle = .none
+
+        super.styleView(with: viewStyle)
+    }
+
     override public func textRect(forBounds bounds: CGRect) -> CGRect {
         return bounds.insetBy(dx: inset, dy: 0)
     }

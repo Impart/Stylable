@@ -23,6 +23,8 @@ extension ViewStylable {
 
     public func styleView(with viewStyle: ViewStyle) {
 
+        self.backgroundColor = .clear
+
         if let backgroundColor = viewStyle.backgroundColor {
             self.layer.backgroundColor = backgroundColor.cgColor
         }
