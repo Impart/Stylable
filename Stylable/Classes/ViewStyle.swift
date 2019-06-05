@@ -63,7 +63,7 @@ public struct ShadowStyle {
 
     public func opacity(_ opacity: CGFloat) -> ShadowStyle {
         var style = self
-        style.offset = offset
+        style.opacity = opacity
         return style
     }
 }
