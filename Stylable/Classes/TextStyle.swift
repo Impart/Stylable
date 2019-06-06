@@ -13,6 +13,8 @@ public struct TextStyle {
     var color: UIColor?
     var backgroundColor: UIColor?
     var lineBreakMode: NSLineBreakMode?
+    var underlineStyle: NSUnderlineStyle?
+    var underlineColor: UIColor?
     var lineSpacing: CGFloat?
     var kern: CGFloat?
     var inset: CGFloat?
@@ -75,6 +77,18 @@ public struct TextStyle {
     public func placeHolderKern(_ kern: CGFloat) -> TextStyle {
         var style = self
         style.placeHolderKern = kern
+        return style
+    }
+
+    public func underlineStyle(_ underlineStyle: NSUnderlineStyle) -> TextStyle {
+        var style = self
+        style.underlineStyle = underlineStyle
+        return style
+    }
+
+    public func underlineColor(_ underlineColor: UIColor) -> TextStyle {
+        var style = self
+        style.underlineColor = underlineColor
         return style
     }
 }

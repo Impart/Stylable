@@ -56,6 +56,14 @@ public extension TextStylable {
             attributes[NSAttributedString.Key.kern] = kern
         }
 
+        if let underlineStyle = textStyle.underlineStyle {
+            attributes[NSAttributedString.Key.underlineStyle] = underlineStyle
+        }
+
+        if let underlineColor = textStyle.underlineColor {
+            attributes[NSAttributedString.Key.underlineColor] = underlineColor
+        }
+
         let paragraphStyle = NSMutableParagraphStyle()
         var paragraphIsStyled = false
 
