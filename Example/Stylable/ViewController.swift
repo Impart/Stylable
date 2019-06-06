@@ -22,7 +22,10 @@ class ViewController: UIViewController {
         let header1Style = TextStyle(font: UIFont.boldSystemFont(ofSize: 36))
         header1.styleText(with: header1Style)
 
-        let header2Style = TextStyle(font: UIFont.systemFont(ofSize: 24)).color(.black)
+        let header2Style = TextStyle(font: UIFont.systemFont(ofSize: 24))
+            .color(.black)
+            .underlineStyle(.single)
+
         header2.styleText(with: header2Style)
 
 

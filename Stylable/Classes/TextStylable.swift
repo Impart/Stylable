@@ -57,7 +57,7 @@ public extension TextStylable {
         }
 
         if let underlineStyle = textStyle.underlineStyle {
-            attributes[NSAttributedString.Key.underlineStyle] = underlineStyle
+            attributes[NSAttributedString.Key.underlineStyle] = underlineStyle.rawValue
         }
 
         if let underlineColor = textStyle.underlineColor {
