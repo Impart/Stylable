@@ -108,9 +108,9 @@ public extension TextStylable {
 
 }
 
-class TextView: UITextView, TextStylable {
+public class TextView: UITextView, TextStylable {
 
-    override var text: String? {
+    override public var text: String? {
         get {
             return super.text
         }
@@ -119,7 +119,7 @@ class TextView: UITextView, TextStylable {
         }
     }
 
-    override var attributedText: NSAttributedString? {
+    override public var attributedText: NSAttributedString? {
         get {
             return super.attributedText
         }
