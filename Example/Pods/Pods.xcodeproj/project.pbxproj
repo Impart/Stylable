@@ -10,6 +10,7 @@
 		07BCA9CA7FD101924F2F31E6018F7F4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		17EDA0A3E0D19A3CFC39A761DE8CF7DC /* Stylable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACDA003CDE5247775E518CEEFBB5EF /* Stylable-dummy.m */; };
 		241B3E3FCE1247EFBBF0312E62BE8FC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2C6E11CE22B3B8C600960057 /* UITextView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6E11CD22B3B8C600960057 /* UITextView+extensions.swift */; };
 		2C8AC3072296B2B1003FEF0B /* UITextField+etensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3062296B2B1003FEF0B /* UITextField+etensions.swift */; };
 		2C8AC3082296B2B1003FEF0B /* UITextField+etensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3062296B2B1003FEF0B /* UITextField+etensions.swift */; };
 		2C8AC3092296B2B1003FEF0B /* UITextField+etensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8AC3062296B2B1003FEF0B /* UITextField+etensions.swift */; };
@@ -56,6 +57,7 @@
 /* Begin PBXFileReference section */
 		13A905AA013FF4C8D78577BD8ECE2A84 /* Stylable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Stylable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2315E46C0CCFBEAE7E4A86C6053AC0B5 /* Pods-Stylable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stylable_Example-dummy.m"; sourceTree = "<group>"; };
+		2C6E11CD22B3B8C600960057 /* UITextView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITextView+extensions.swift"; path = "Stylable/Classes/UITextView+extensions.swift"; sourceTree = "<group>"; };
 		2C8AC3062296B2B1003FEF0B /* UITextField+etensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITextField+etensions.swift"; path = "Stylable/Classes/UITextField+etensions.swift"; sourceTree = "<group>"; };
 		2C8AC3152296DCD5003FEF0B /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = Stylable/Classes/TextField.swift; sourceTree = "<group>"; };
 		2C8AC3192296E416003FEF0B /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextStyle.swift; path = Stylable/Classes/TextStyle.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				2C8AC3152296DCD5003FEF0B /* TextField.swift */,
 				2C8AC3062296B2B1003FEF0B /* UITextField+etensions.swift */,
+				2C6E11CD22B3B8C600960057 /* UITextView+extensions.swift */,
 				2CBB31D92296A91C00527EE5 /* TextStylable.swift */,
 				2C8AC3192296E416003FEF0B /* TextStyle.swift */,
 				2C8AC31D2296E4B1003FEF0B /* ViewStyle.swift */,
@@ -424,6 +427,7 @@
 				2C8AC3202296E4B1003FEF0B /* ViewStyle.swift in Sources */,
 				2C8AC3182296DCD5003FEF0B /* TextField.swift in Sources */,
 				17EDA0A3E0D19A3CFC39A761DE8CF7DC /* Stylable-dummy.m in Sources */,
+				2C6E11CE22B3B8C600960057 /* UITextView+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

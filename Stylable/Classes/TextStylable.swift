@@ -108,6 +108,27 @@ public extension TextStylable {
 
 }
 
+class TextView: UITextView, TextStylable {
+
+    override var text: String? {
+        get {
+            return super.text
+        }
+        set {
+            super.text = newValue
+        }
+    }
+
+    override var attributedText: NSAttributedString? {
+        get {
+            return super.attributedText
+        }
+        set {
+            super.attributedText = newValue
+        }
+    }
+}
+
 extension UILabel: TextStylable { }
 
 extension UIButton: TextStylable {
